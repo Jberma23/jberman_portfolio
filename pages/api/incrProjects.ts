@@ -6,7 +6,9 @@ export const config = {
   runtime: "edge",
 };
 
-export default async function incr(req: NextRequest): Promise<NextResponse> {
+export default async function incrProjects(
+  req: NextRequest
+): Promise<NextResponse> {
   if (req.method !== "POST") {
     return new NextResponse("use POST", { status: 405 });
   }
@@ -27,7 +29,7 @@ export default async function incr(req: NextRequest): Promise<NextResponse> {
     // Hash the IP in order to not store it directly in your db.
     const buf = await crypto.subtle.digest(
       "SHA-256",
-      new TextEncoder().encode(ip),
+      new TextEncoder().encode(ip)
     );
     const hash = Array.from(new Uint8Array(buf))
       .map((b) => b.toString(16).padStart(2, "0"))
