@@ -1,5 +1,5 @@
 <div align="center">
-    <a href="https://jberman.vercel.app"><h1 align="center">jberman.vercel.app</h1></a>
+    <a href="https://jesseberman.me"><h1 align="center">jesseberman.me</h1></a>
 
 My personal website, built with [Next.js](https://nextjs.org/), [Tailwind CSS](https://tailwindcss.com/), [Upstash](https://usw2-noted-lacewing-30321.upstash.io/set/foo/bar), [Contentlayer](https://www.contentlayer.dev/) and deployed to [Vercel](https://vercel.com/).
 
@@ -12,11 +12,11 @@ My personal website, built with [Next.js](https://nextjs.org/), [Tailwind CSS](h
 ## Running Locally
 
 ```sh-session
-git clone https://github.com/Jberma23/jberman_portfolio
-cd jberman_portfolio
+git clone https://github.com/Jberma23/jesseberman.me
+cd jesseberman.me
 ```
 
-Create a `.env` file similar to [`.env.example`](https://github.com/Jberma23/jberman_portfolio/blob/main/.env.example).
+Create a `.env` file similar to [`.env.example`](https://github.com/Jberma23/jesseberman.me/blob/main/.env.example).
 
 Then install dependencies and run the development server:
 

@@ -6,18 +6,20 @@ import { Analytics } from "./components/analytics";
 
 export const metadata: Metadata = {
   title: {
-    default: "jberman.vercel.app",
-    template: "%s | jberman.vercel.app",
+    default: "jesseberman.me",
+    template: "%s | jesseberman.me",
   },
-  description: "Co-founder of unkey.dev and founder of planetfall.io",
+  description:
+    "A full-stack software engineer who has experience and passion for working in start ups",
   openGraph: {
-    title: "https://jberman.vercel.app/",
-    description: "Co-founder of unkey.dev and founder of planetfall.io",
-    url: "https://jberman.vercel.app/",
-    siteName: "https://jberman.vercel.app/",
+    title: "https://jesseberman.me/",
+    description:
+      "A full-stack software engineer who has experience and passion for working in start ups",
+    url: "https://jesseberman.me/",
+    siteName: "https://jesseberman.me/",
     images: [
       {
-        url: "https://jberman.vercel.app/og.png",
+        url: "https://jesseberman.me/og.png",
         width: 1920,
         height: 1080,
       },
