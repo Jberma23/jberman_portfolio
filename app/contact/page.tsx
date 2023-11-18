@@ -5,12 +5,12 @@ import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
 
 const socials = [
-  // {
-  // 	icon: <Twitter size={20} />,
-  // 	href: "https://twitter.com/chronark_",
-  // 	label: "Twitter",
-  // 	handle: "@chronark_",
-  // },
+  {
+    icon: <Twitter size={20} />,
+    href: "https://twitter.com/jberma23",
+    label: "Twitter",
+    handle: "@jberma23",
+  },
   {
     icon: <Mail size={20} />,
     href: "mailto:jesse.ben.berman@gmail.com",
