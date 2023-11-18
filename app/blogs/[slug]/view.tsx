@@ -4,7 +4,7 @@ import { useEffect } from "react";
 
 export const BlogView: React.FC<{ slug: string }> = ({ slug }) => {
   useEffect(() => {
-    fetch("/api/incrBlog", {
+    fetch("/api/incrBlogs", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
