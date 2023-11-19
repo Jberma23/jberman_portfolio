@@ -40,8 +40,7 @@ export default async function ProjectsPage() {
           </h2>
           <p className="mb-4 text-gray-600 dark:text-gray-400">
             {`I mostly write about web development, and some challanges aroud software development.
-            In total, I've written ${allblogs.length} articles on my blog.
-            Use the search below to filter by title.`}
+            In total, I've written ${allblogs.length} articles on my blog.`}
           </p>
         </div>
         <div className="grid grid-cols-1 gap-4 mx-auto lg:mx-0">
