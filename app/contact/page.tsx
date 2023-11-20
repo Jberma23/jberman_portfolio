@@ -23,12 +23,6 @@ const socials = [
     label: "Github",
     handle: "Jberma23",
   },
-  {
-    icon: <Linkedin size={20} />,
-    href: "https://www.linkedin.com/in/jesse-berman-b0965715b/",
-    label: "LinkedIn",
-    handle: "Jesse Bermna",
-  },
 ];
 
 export default function Example() {
